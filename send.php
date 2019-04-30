@@ -1,5 +1,5 @@
 <?php
-$username	= "your_username";
+$username	= "iansangaji_";
 $number		= readline("Number  : ");
 $pesan		= readline("Message : ");
 $sendmess	= json_decode(file_get_contents("https://api.iansangaji.co/sms/sms.php?pesan=".urlencode($pesan)."&no=".$number."&user=".$username));
